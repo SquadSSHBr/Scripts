@@ -29,7 +29,7 @@ tput sgr0
 echo ""
 if [ -a /tmp/exp ]
 then
-	tput setaf 2 ; tput bold ; echo "Para remover todos os usuários expirados use o comando: remover" ; echo "" ; tput sgr0
+	tput setaf 2 ; tput bold ; echo "Para remover todos os usuários expirados use o comando: limpar" ; echo "" ; tput sgr0
 	rm /tmp/exp
 fi
 read -p "Nome do usuário para alterar a data de expiração: " usuario
